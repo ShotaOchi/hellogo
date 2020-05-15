@@ -2,3 +2,4 @@ README.md
 ^\.travis\.yml$
 ^appveyor\.yml$
 LICENSE
+install_go_with_rtools40.md
