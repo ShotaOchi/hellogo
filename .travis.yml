@@ -14,5 +14,5 @@ r_check_args: --no-multiarch
 addons:
   apt:
     packages:
-      - go
+      - golang-go
 
