@@ -11,3 +11,8 @@ Run the code shown below.
 ```
 devtools::install_github("ShotaOchi/hellogo", build_opts = c("--no-multiarch"))
 ```
+
+## Note
+R becomes unstable after checking or installing of hellogo.
+
+Restarting R stabilizes R.
