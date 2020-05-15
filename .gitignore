@@ -1,0 +1,5 @@
+inst/doc
+*.o
+*.so
+*.dll
+src/mygo/libmygo.*

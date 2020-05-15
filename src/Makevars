@@ -1,0 +1,8 @@
+LIBDIR = mygo
+STATLIB = mygo/libmygo.a
+PKG_LIBS = -L$(LIBDIR) -lmygo
+
+all: $(STATLIB) $(SHLIB)
+
+$(STATLIB):
+	go build -buildmode=c-archive -o mygo/libmygo.a ./mygo

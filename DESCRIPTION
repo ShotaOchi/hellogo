@@ -1,0 +1,12 @@
+Package: hellogo
+Type: Package
+Title: Extra Image Processing Library Based on 'imager'
+Version: 0.1.0
+Authors@R: c(person("Shota", "Ochi", email = "shotaochi1990@gmail.com", role = c("aut", "cre")))
+Maintainer: Shota Ochi <shotaochi1990@gmail.com>
+Description: Provides an example of how an R package that calls go gunctions is created.
+License: GPL-3
+URL: https://github.com/ShotaOchi/hellogo
+BugReports: https://github.com/ShotaOchi/hellogo/issues
+RoxygenNote: 7.1.0
+Encoding: UTF-8
