@@ -6,6 +6,7 @@ Authors@R: c(person("Shota", "Ochi", email = "shotaochi1990@gmail.com", role = c
 Maintainer: Shota Ochi <shotaochi1990@gmail.com>
 Description: Provides an example of how an R package that calls go gunctions is created.
 License: GPL-3
+SystemRequirements: Go
 URL: https://github.com/ShotaOchi/hellogo
 BugReports: https://github.com/ShotaOchi/hellogo/issues
 RoxygenNote: 7.1.0
