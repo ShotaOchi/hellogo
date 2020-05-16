@@ -5,8 +5,10 @@
 
 // Actual Wrappers
 SEXP hello_go() {
+  char* tmp = hello_from_go();
   SEXP out = PROTECT(allocVector(STRSXP, 1));
-  SET_STRING_ELT(out, 0, mkChar(hello_from_go()));
+  SET_STRING_ELT(out, 0, mkChar(tmp));
+  free(tmp);
   UNPROTECT(1);
   return out;
 }
