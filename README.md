@@ -13,6 +13,21 @@ devtools::install_github("ShotaOchi/hellogo", INSTALL_opts = c("--no-multiarch")
 ```
 
 ## Note
-R becomes unstable after check or installation of hellogo.
+R may become unstable after check or installation of hellogo.
 
 Restarting R stabilizes R.
+
+R often crashes after running the following code on my windows machine.
+```
+setwd("directory of hellogo")
+devtools::document()
+devtools::check(args = "--no-multiarch")
+devtools::install(args = "--no-multiarch")
+```
+
+The following command causes no problem.
+```
+R CMD build hellogo
+R CMD check --no-multiarch hellogo_0.1.0.tar.gz
+R CMD INSTALL --no-multiarch hellogo_0.1.0.tar.gz
+```
