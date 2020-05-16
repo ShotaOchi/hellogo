@@ -9,7 +9,7 @@ hellogo is an R package to show how to create an R package that calls go gunctio
 ## Installation
 Run the code shown below.
 ```
-devtools::install_github("ShotaOchi/hellogo", build_opts = c("--no-multiarch"))
+devtools::install_github("ShotaOchi/hellogo", INSTALL_opts = c("--no-multiarch"))
 ```
 
 ## Note
