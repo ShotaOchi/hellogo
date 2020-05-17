@@ -23,5 +23,3 @@ Note that enabling the upstream msys2 repository and installing extra utilities 
 See [https://github.com/r-windows/rtools-packages](https://github.com/r-windows/rtools-packages) for more information.
 
 It is convenient to use an installer downloaded from [https://golang.org/dl/](https://golang.org/dl/).
-
-Working with rtools40 isn't benefical and requires us to waste our time.
