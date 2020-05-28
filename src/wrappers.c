@@ -1,7 +1,7 @@
 #include <R.h>
 #include <Rinternals.h>
 
-#include "mygo/libmygo.h"
+#include "libmygo/libmygo.h"
 
 // Actual Wrappers
 SEXP hello_go() {

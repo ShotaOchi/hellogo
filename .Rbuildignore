@@ -3,3 +3,4 @@ README.md
 ^appveyor\.yml$
 LICENSE
 install_go_with_rtools40.md
+src/libmygo/.gitkeep

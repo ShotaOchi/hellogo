@@ -3,3 +3,4 @@ inst/doc
 *.so
 *.dll
 src/mygo/libmygo.*
+src/libmygo/lib*

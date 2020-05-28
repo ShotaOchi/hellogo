@@ -24,6 +24,21 @@ devtools::document()
 devtools::check(args = "--no-multiarch")
 devtools::install(args = "--no-multiarch")
 ```
+The error message on my windows machine is shown below.
+> fatal error: runtime: unexpected waitm - semaphore out of sync
+runtime stack:
+runtime.throw(0x6750ecf4, 0x31)
+        C:/rtools40/mingw64/lib/go/src/runtime/panic.go:1116 +0x79
+runtime.notetsleep_internal(0x6756db78, 0xdf8475800, 0xc000030480, 0x183e98c0b5fa4, 0x0)
+        C:/rtools40/mingw64/lib/go/src/runtime/lock_sema.go:264 +0x255
+runtime.notetsleep(0x6756db78, 0xdf8475800, 0x370)
+        C:/rtools40/mingw64/lib/go/src/runtime/lock_sema.go:275 +0x66
+runtime.sysmon()
+        C:/rtools40/mingw64/lib/go/src/runtime/proc.go:4492 +0x44b
+runtime.mstart1()
+        C:/rtools40/mingw64/lib/go/src/runtime/proc.go:1097 +0xd1
+runtime.mstart()
+        C:/rtools40/mingw64/lib/go/src/runtime/proc.go:1062 +0x6d
 
 The following command causes no problem.
 ```

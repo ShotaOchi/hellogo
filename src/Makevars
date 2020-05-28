@@ -1,8 +1,10 @@
-LIBDIR = mygo
-STATLIB = mygo/libmygo.a
-PKG_LIBS = -L$(LIBDIR) -lmygo
+LIBDIR = libmygo
+SRCDIR = mygo
+LIBNAME = lib$(SRCDIR).a
+STATLIB = $(SRCDIR)/$(LIBNAME)
+PKG_LIBS = -L$(LIBDIR) -l$(SRCDIR)
 
-all: $(STATLIB) $(SHLIB)
+all: $(STATLIB) $(SHLIB) $(FINAL)
 
 $(STATLIB):
-	go build -buildmode=c-archive -o mygo/libmygo.a ./mygo
+	go build -o $(LIBDIR)/$(LIBNAME) -buildmode=c-archive ./$(SRCDIR)
