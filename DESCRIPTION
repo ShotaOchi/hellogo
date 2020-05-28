@@ -1,6 +1,6 @@
 Package: hellogo
 Type: Package
-Title: An R package to show how to create an R package that calls go gunctions.
+Title: An R package to show how to create an R package that calls go gunctions
 Version: 0.1.0
 Authors@R: c(person("Shota", "Ochi", email = "shotaochi1990@gmail.com", role = c("aut", "cre")))
 Maintainer: Shota Ochi <shotaochi1990@gmail.com>
