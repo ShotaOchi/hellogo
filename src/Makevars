@@ -4,7 +4,7 @@ LIBNAME = lib$(SRCDIR).a
 STATLIB = $(SRCDIR)/$(LIBNAME)
 PKG_LIBS = -L$(LIBDIR) -l$(SRCDIR)
 
-all: $(STATLIB) $(SHLIB) $(FINAL)
+all: $(STATLIB) $(SHLIB)
 
 $(STATLIB):
 	go build -o $(LIBDIR)/$(LIBNAME) -buildmode=c-archive ./$(SRCDIR)
