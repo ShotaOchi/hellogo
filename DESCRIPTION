@@ -9,5 +9,5 @@ License: GPL-3
 SystemRequirements: Go
 URL: https://github.com/ShotaOchi/hellogo
 BugReports: https://github.com/ShotaOchi/hellogo/issues
-RoxygenNote: 7.1.0
+RoxygenNote: 7.1.2
 Encoding: UTF-8
