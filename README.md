@@ -13,7 +13,9 @@ devtools::install_github("ShotaOchi/hellogo", INSTALL_opts = c("--no-multiarch")
 ```
 
 ## Note (April 21th, 2022)
-I don't encounter the crush described below now.
+I encounter a segfault error when I repeat devtools::check and devtools::install.
+
+I don't encounter the crush desrcribed below now.
 
 ## Note (May 28th, 2020)
 R may become unstable after check or installation of hellogo.
