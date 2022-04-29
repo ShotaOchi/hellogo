@@ -4,7 +4,7 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## About
-hellogo is an R package to show how to create an R package that calls go gunctions.
+hellogo is an R package to show how to create an R package that calls go functions.
 
 ## Installation
 Run the code shown below.
